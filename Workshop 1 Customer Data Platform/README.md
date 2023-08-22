@@ -1,4 +1,4 @@
-![Slide 1](slide1.png)
-![Slide 2](slide2.png)
-![Slide 3](slide3.png)
-![Slide 4](slide4.png)
+![Slide 1](slide1.PNG)
+![Slide 2](slide2.PNG)
+![Slide 3](slide3.PNG)
+![Slide 4](slide4.PNG)
