@@ -9,10 +9,6 @@ number of topics = 3
 
 ### Result
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/f5673051-402b-4f7e-90b1-7ed47d0693d7)
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/8f663e53-191b-475c-91cd-ec6fe83cc781)
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/3a3e0cb9-125b-42bb-9572-bddfc7e8dcbf)
-
 ## Document Clustering
 
 ### K-mean
