@@ -10,7 +10,7 @@ HDI, operating as a network marketing enterprise in Asia, offers a diverse range
 
 **BUSINESS OBJECTIVE :**
 
-- Increase sales by strategically targeting all customer groups to maximize our sales potential across the board.
+- Increase sales by strategically targeting all customer groups to maximize our sales potential.
 
 ## Customer Segmentation
 
