@@ -1,5 +1,3 @@
-# Churn
-
 ## Customer Retention Analysis
 
 **DATA:**  
