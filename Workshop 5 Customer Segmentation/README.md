@@ -33,3 +33,6 @@ Create a Customer Single View with features such as
 - online_6month(ratio 0 to 1)
 - last_transaction_day
 - mean_time_between_purchase
+
+**Clustering with K-Means :**
+
