@@ -1,6 +1,6 @@
 ## Customer Retention Analysis
 
-**DATA:**  
+**DATA :**  
 - Supermarket Sales Data
 
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/ecbf7dde-77ca-4e2d-ae53-71deefe1e5c8)
@@ -9,7 +9,7 @@ In cohort analysis, we found that customers who joined in April 2006 exhibited a
 
 ## Customer Movement Analysis
 
-**DATA:**  
+**DATA :**  
 - Supermarket Sales Data
 
 For each reporting month, customers are grouped into 4 categories defined by the defition below  
@@ -25,5 +25,67 @@ For each reporting month, customers are grouped into 4 categories defined by the
 
 ## Churn Prediction
 
-**DATA:**  
+**DATA :**  
 - E-commerce Data
+
+**Vairable and Discerption :**
+
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/120b9d2e-83e4-476b-b588-c0ca2c2aeda3)
+
+**1.Import Libraries**
+
+**2.Import Data**
+
+**3.Handle with Missing Value**
+- Remove rows with missing values.
+- The dataset was reduced from 5630 rows to 3774 rows after removing rows with missing values.
+
+**4.Exploring Data**
+- Performing a boxplot comparison of numerical variables with the target variable(Churn).
+  
+  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/5f0a4137-59a0-4505-afcb-4aded70f65a8)
+  
+- Performing a heatmap comparison of categorical variables with the target variable(Churn) in terms of ratio values.
+  
+  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/6d389bb9-399f-40b4-a29d-4f6e83857915)
+
+**5.Data Preprocessing**
+- Applied one-hot encoding to categorical variables in the following list:
+  
+  - PreferredLoginDevice
+  - CityTier
+  - PreferredPaymentMode
+  - Gender
+  - PreferedOrderCat
+  - MaritalStatus
+
+**6.Handling Imbalance Data with SMOTE**
+
+The SMOTE algorithm is one of the first and still the most popular algorithmic approach to generating new dataset samples. The algorithm works by oversampling the underlying dataset with new synthetic points.
+- before
+  
+  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/cb6b60c6-b764-4881-ab9d-7e327a0b6a63" height="400" width="600" >
+  
+- After
+
+  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/579de394-fb75-4cc9-b3d0-62c6140a5be7" height="400" width="600" >
+
+**7.Train Model and Evaluate**
+
+Training four models: 
+- Logistic Regression
+  - Before SMOTE : F1 score is 0.89
+  - After SMOTE : F1 score is 0.86
+- Random Forest Classifier
+  - Before SMOTE : F1 score is 0.96
+  - After SMOTE : F1 score is 0.95
+- K-Neighbors Classifier
+  - Before SMOTE : F1 score is 0.86
+  - After SMOTE : F1 score is 0.82
+- XGBoost Classifier
+  - Before SMOTE : F1 score is 0.97
+  - After SMOTE : F1 score is 0.95
+ 
+**8.Model Selection**
+- Selected the XGBoost Classifier with SMOTE due to its highest F1 score compared to other models.
+
