@@ -1,6 +1,6 @@
 # Voice of Customer
 
- Voice of the Customer (VoC) is the practice of gathering and analyzing customer feedback to gain insights into their preferences, needs, and expectations. The primary benefit of VoC is its capacity to enhance customer satisfaction by identifying and addressing areas for improvement in products, services, and customer experiences. By listening to customers, businesses can make informed decisions, enhance their offerings, and foster loyalty, ultimately leading to competitive advantage, reduced churn, and continuous improvement across the organization.
+Voice of the Customer (VoC) is the practice of gathering and analyzing customer feedback to gain insights into their preferences, needs, and expectations. The primary benefit of VoC is its capacity to enhance customer satisfaction by identifying and addressing areas for improvement in products, services, and customer experiences. By listening to customers, businesses can make informed decisions, enhance their offerings, and foster loyalty, ultimately leading to competitive advantage, reduced churn, and continuous improvement across the organization.
 
 <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/8ad8648f-c729-464d-b621-6e3da832230b" height="400" width="600" >
 
