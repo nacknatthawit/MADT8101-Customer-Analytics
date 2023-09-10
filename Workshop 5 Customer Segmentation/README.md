@@ -36,3 +36,4 @@ Create a Customer Single View with features such as
 
 **Clustering with K-Means :**
 
+![segment_movement](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/c64999d4-9e55-4001-8299-c1c64a5b2c3a)
