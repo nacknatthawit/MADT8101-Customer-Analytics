@@ -103,6 +103,6 @@ From the results of a market basket analysis, businesses can identify pairs or g
 ## Segment Movement Analysis
 
 
-To Segment Moveent Analysis of memberships, we utilize labeled member data from the year 2023, which was derived from clustering. We construct a classification model to predict the historical behavior of members and determine which clusters they were previously associated with. This model enables us to visualize changes in the behavior patterns of individual members over the course of the year, presenting the transitions with a Sankey diagram.
+To Segment Movement Analysis of memberships, we utilize labeled member data from the year 2023, which was derived from clustering. We construct a classification model to predict the historical behavior of members and determine which clusters they were previously associated with. This model enables us to visualize changes in the behavior patterns of individual members over the course of the year, presenting the transitions with a Sankey diagram.
 
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/4d11b0b0-e278-4c8c-b523-be8f12095540)
