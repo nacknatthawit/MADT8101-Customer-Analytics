@@ -1,4 +1,9 @@
 # Customer Single View
+
+### What is a Customer Single View
+
+Customer Single View is a method for gathering all the data about each of your prospects and clients, then merging it into a single record.
+
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/97ec4027-0224-40b2-8af1-7a6c50e55396)
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/f9d37513-5178-4b92-99ef-b92618d6b9fd)
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/38213a78-b31b-4bb6-b380-4fe45e1a35fe)
