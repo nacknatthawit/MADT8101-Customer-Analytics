@@ -36,4 +36,8 @@ Create a Customer Single View with features such as
 
 **Clustering with K-Means :**
 
+Select number of clusters = 4
+
+Result
+
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/4d11b0b0-e278-4c8c-b523-be8f12095540)
