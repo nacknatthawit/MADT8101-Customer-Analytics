@@ -11,7 +11,7 @@ Customer Single View is an accessible and consistent set of information about ho
 
 **Vairable and Discerption :**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/460746f4-be22-4c43-9d28-7e4e275d7767)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/047ad29f-b07d-4dc8-ae5e-46e75fd4f281)
 
 **Create a Customer Single View with features such as**
 - custommer code (CUST_CODE)
