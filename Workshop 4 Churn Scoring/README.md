@@ -31,7 +31,7 @@ For each reporting month, customers are grouped into 4 categories defined by the
 
 **Vairable and Discerption :**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/120b9d2e-83e4-476b-b588-c0ca2c2aeda3)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/e52c5145-6f83-431e-be75-6c0fe64e9bdb)
 
 **1.Import Libraries**
 
@@ -44,11 +44,12 @@ For each reporting month, customers are grouped into 4 categories defined by the
 **4.Exploring Data**
 - Performing a boxplot comparison of numerical variables with the target variable(Churn).
   
-  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/5f0a4137-59a0-4505-afcb-4aded70f65a8)
+  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/8f036164-9c39-41fe-948d-bf3042e5f924)
+
   
 - Performing a heatmap comparison of categorical variables with the target variable(Churn) in terms of ratio values.
   
-  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/6d389bb9-399f-40b4-a29d-4f6e83857915)
+  ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/c886123b-6e51-4062-8c5d-f38451871d55)
 
 **5.Data Preprocessing**
 - Applied one-hot encoding to categorical variables in the following list:
@@ -65,11 +66,11 @@ For each reporting month, customers are grouped into 4 categories defined by the
 The SMOTE algorithm is one of the first and still the most popular algorithmic approach to generating new dataset samples. The algorithm works by oversampling the underlying dataset with new synthetic points.
 - before
   
-  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/cb6b60c6-b764-4881-ab9d-7e327a0b6a63" height="400" width="600" >
-  
+  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/a0ea5334-89de-45bf-a34f-18e42bd37d3f" height="400" width="600" >
+
 - After
 
-  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/579de394-fb75-4cc9-b3d0-62c6140a5be7" height="400" width="600" >
+  <img src="https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/c8e8d236-ab14-443c-97e7-d5427d634bc4" height="400" width="600" >
 
 **7.Train Model and Evaluate**
 
