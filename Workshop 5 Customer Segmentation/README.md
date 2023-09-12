@@ -40,7 +40,7 @@ Select number of clusters = 4
 
 **Result**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/16a40684-7acd-4086-bb39-3a9a69b01b28)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/1aa24edf-8d8c-4f7e-8301-08898138214f)
 
 **Problem :** 
 It is challenging to classify cluster0 as either composed of newcomers or churned customers due to their combination of low average spending(last 3 months), low recent transactions(last 3 months), small average ticket sizes(last 3 months), and a high number of days since their last transaction.
@@ -50,10 +50,12 @@ Creating a new cluster by splitting cluster 0 based on the condition that their 
 
 **Result**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/58e0a3a1-b577-4b4d-8343-ed23e99f1d3f)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/0a83463c-48e1-4222-afe9-b47b1dc86aa9)
 
 ### Business Strategies by cluster
 
+Pursuing the objectives of increased transaction frequency, higher average ticket size, and reduced meantime between purchases for each tier, with the ultimate aim of elevating members to higher tier levels.
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/d8913c61-b3b0-47f7-8629-936d69b17fc6)
 
 
 ## Product Recommendation
