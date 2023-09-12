@@ -29,8 +29,9 @@ Customer Single View is an accessible and consistent set of information about ho
 - First visit (first_visit)
 - Last visit (last_visit)
 
+**Result**
 
-
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/f1339094-c3ff-43a3-967b-a971d854b9af)
 
 ## Basic Customer Analytics
 
@@ -38,5 +39,16 @@ Customer Single View is an accessible and consistent set of information about ho
 
 **Method :** Compare spending between short-period and long-period to identify who is spending more.
 
+- From Customer Single view find spending per transaction last 3 month and spending per transaction last 6.
+- Use only member spending per transaction last 3 month and spending per transaction last 6 month not equal to zero.
+- Find percentile for each member with spending per transaction last 3 month and spending per transaction last 6 month.
+- Compare member when percentile spending per transaction last 3 month more then percentile spending per transaction last 6 month.
+- Compare member when spending per transaction last 3 month more then spending per transaction last 6 month.
+
+**Result :** This member, who is spending more, presents an opportunity for up-selling or cross-selling, as their higher spending suggests a likelihood of increased purchases.
+
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/4e8e592d-ed45-4569-b134-4f431de9da8f)
+
+Once the members with a higher likelihood of making a purchase have been identified, the next step involves deciding between cross-selling and up-selling strategies. For instance, in the case of cross-selling, product recommendations can be analyzed to determine which products are frequently purchased together.
 
 
