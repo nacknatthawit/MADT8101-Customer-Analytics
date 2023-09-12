@@ -40,7 +40,7 @@ Select number of clusters = 4
 
 **Result**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/1aa24edf-8d8c-4f7e-8301-08898138214f)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/ec263ddc-0c6c-4767-b48d-300edba42be0)
 
 **Problem :** 
 It is challenging to classify cluster0 as either composed of newcomers or churned customers due to their combination of low average spending(last 3 months), low recent transactions(last 3 months), small average ticket sizes(last 3 months), and a high number of days since their last transaction.
@@ -50,13 +50,12 @@ Creating a new cluster by splitting cluster 0 based on the condition that their 
 
 **Result**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/0a83463c-48e1-4222-afe9-b47b1dc86aa9)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/5f7137c7-cfa4-4bb4-ac04-6b6599a66fc5)
 
 ### Business Strategies by cluster
 
 Pursuing the objectives of increased transaction frequency, higher average ticket size, and reduced meantime between purchases for each tier, with the ultimate aim of elevating members to higher tier levels.
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/d8913c61-b3b0-47f7-8629-936d69b17fc6)
-
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/587e4fe3-47f0-413b-ab28-57cd51f96c58)
 
 ## Product Recommendation
 
@@ -71,11 +70,11 @@ Pursuing the objectives of increased transaction frequency, higher average ticke
 
 Cosine similarity matrix between 2 products.
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/8db1a368-0b6d-42df-a213-894d975bacfb)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/b3a6f668-d060-4de1-92b7-683806f07cae)
 
 Top 10 high similarity between 2 products.
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/719234da-8e99-44ab-8935-78cc3a64e709)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/33b1bfed-1685-4565-a3eb-7b810e8d073f)
 
 Recommendation Algorithm for member if cluster = 0 and product = 'KC4C41'
 
@@ -100,7 +99,7 @@ Market basket analysis is a data mining technique used to discover patterns and 
 
 **Result**
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/d6f26acb-42cb-41e7-83af-2464190d7fd7)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/11ddb17b-899f-4d4a-97fc-e1c978b03318)
 
 **Use case:** 
 
@@ -110,7 +109,7 @@ From the results of a market basket analysis, businesses can identify pairs or g
 
 To Segment Movement Analysis of memberships, we utilize labeled member data from the year 2023, which was derived from clustering. We construct a classification model to predict the historical behavior of members and determine which clusters they were previously associated with. This model enables us to visualize changes in the behavior patterns of individual members over the course of the year, presenting the transitions with a Sankey diagram.
 
-![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/4d11b0b0-e278-4c8c-b523-be8f12095540)
+![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/a9316b05-6910-41b0-8245-21426957be82)
 
 **Result**
 
