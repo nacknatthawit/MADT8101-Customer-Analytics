@@ -52,6 +52,10 @@ Creating a new cluster by splitting cluster 0 based on the condition that their 
 
 ![image](https://github.com/nacknatthawit/MADT8101-Customer-Analytics/assets/115746160/58e0a3a1-b577-4b4d-8343-ed23e99f1d3f)
 
+### Business Strategies by cluster
+
+
+
 ## Product Recommendation
 
 **Method :**
